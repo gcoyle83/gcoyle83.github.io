@@ -7,10 +7,11 @@ layout: home
 Hello and welcome to the content of my GitHub Pages site. There is nothing interesting here yet, but after I create it there will be, depending on what you find interesting. 
 
 For example:
-![How to draw an owl](/assets/images/owl.png "Owl")
-<figure>
-    <img src="/assets/images/owl.png"
-		 width="400"
-         alt="Owl">
-    <figcaption>How to draw an owl.</figcaption>
-</figure>
+<center>
+	<figure>
+		<img src="/assets/images/owl.png"
+			 width="500"
+			 alt="Owl">
+		<figcaption>How to draw an owl.</figcaption>
+	</figure>
+</center>
