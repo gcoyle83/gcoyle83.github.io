@@ -4,3 +4,5 @@
 
 layout: home
 ---
+## Header 2
+But I never used a header 1...
