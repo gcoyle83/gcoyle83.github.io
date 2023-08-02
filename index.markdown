@@ -8,3 +8,9 @@ Hello and welcome to the content of my GitHub Pages site. There is nothing inter
 
 For example:
 ![How to draw an owl](/assets/images/owl.png "Owl")
+<figure>
+    <img src="/assets/images/owl.png"
+		 width="400"
+         alt="Owl">
+    <figcaption>How to draw an owl.</figcaption>
+</figure>
