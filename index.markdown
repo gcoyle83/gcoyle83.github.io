@@ -4,4 +4,7 @@
 
 layout: home
 ---
-Hello and welcome to the content of my GitHub Pages site. There is nothing interesting here yet, but after I create it there will be, depending on what you find interesting.
+Hello and welcome to the content of my GitHub Pages site. There is nothing interesting here yet, but after I create it there will be, depending on what you find interesting. 
+
+For example:
+![How to draw an owl](/assets/images/owl.png "Owl")
