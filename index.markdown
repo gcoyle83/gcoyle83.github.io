@@ -4,5 +4,4 @@
 
 layout: home
 ---
-## Header 2
-But I never used a header 1...
+Hello and welcome to the content of my GitHub Pages site. There is nothing interesting here yet, but after I create it there will be, depending on what you find interesting.
