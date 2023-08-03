@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Water-Quality
+title: Water Quality
 permalink: /water-quality/
 ---
 This page is for summarizing core concepts in water-quality modeling.
