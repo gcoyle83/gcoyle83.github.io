@@ -39,3 +39,8 @@ Continue following the rest of the GitHub tutorial instructions to complete the 
 
 ## Step 4 - Edit site contents
 Draw the rest of the owl.
+
+**Next steps**
+Per GitHub tutorial:
+-  To add a new page or post to your site, see ["Adding content to your GitHub Pages site using Jekyll."](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
+-  You can add a Jekyll theme to your GitHub Pages site to customize the look and feel of your site. For more information, see ["Adding a theme to your GitHub Pages site using Jekyll."](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
