@@ -8,9 +8,11 @@ Here I'll outline the broad concept areas that interest me and drill down where 
 ## Data Science
 This collection of pages introduces core data science concepts that interest me, and includes discussion of why I am interested in them:
 
--  [Supervised learning](../_data_science/supervised) is a basic machine learning technique that uses examples of input-output mappings to learn a function that takes a new, possibly unobserved, input and estimates its output label (categorical or numeric).
+-  [Supervised learning](../data_science/supervised) is a basic machine learning technique that uses examples of input-output mappings to learn a function that takes a new, possibly unobserved, input and estimates its output label (categorical or numeric).
 
 -  [Reinforcement learning](../data_science/reinforcement) is a more advanced machine learning technique that uses the theory of *Markov Decision Processes* and the *Bellman equations* to learn an optimal *policy of action* from an observed *reward signal*.  
+
+-  [Causal ML](https://arxiv.org/abs/2206.15475) (external link) combines machine learning with the robust but relatively new field of *Causal inference*. My primary encounters with causal inference so far have been through Richard McElreath's *Statistical Rethinking* course, but I am intrigued by the possibilities of incorporating causal theory with automated machine learning systems.  
 
 ## Water Quality
 This collection of pages introduces core water quality concepts that interest me and includes discussion of why I am interested in them.
