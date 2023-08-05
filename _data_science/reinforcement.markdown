@@ -3,7 +3,9 @@ layout: page
 title: Reinforcement Learning
 permalink: /data_science/reinforcement
 ---
-The reinforcement learning hypothesis, as put forward by [Michael Littman](https://en.wikipedia.org/wiki/Michael_L._Littman), states that *"Intelligent behavior arises from the actions of an individual seeking to maximize its received reward signals in a complex and changing world."* A fun-to-watch example of RL in robotics is shown below (see [Geijtenbeek, et al 2013](https://www.youtube.com/watch?v=pgaEE27nsQw)), where synthetic (digital) bipedal creatures learn over many generations to walk. One thing notable about this example is that the synthetic creatures used are actually running advanced physics simulations of muscle-based locomotion - the knowledge gained from these simulations can then be transferred to real robots walking in the real world.
+The reinforcement learning hypothesis, as put forward by [Michael Littman](https://en.wikipedia.org/wiki/Michael_L._Littman), states that *"Intelligent behavior arises from the actions of an individual seeking to maximize its received reward signals in a complex and changing world."* 
+
+A fun-to-watch example of RL in robotics is shown below (see [Geijtenbeek, et al., 2013](https://www.goatstream.com/research/papers/SA2013/)), where synthetic (digital) bipedal creatures learn over many generations to walk. One thing notable about this example is that the synthetic creatures used are actually running advanced physics simulations of muscle-based locomotion - the knowledge gained from these simulations can then be transferred to real robots walking in the real world.
 
 <center>
 <video width="560" height="315" autoplay controls loop muted>
@@ -24,9 +26,13 @@ Robotics may be a fun example of RL, but the reinforcement learning task has bee
 
 In a MDP, an *agent* selects among a possible set of *actions* conditional on an observed *state* from the agent's *environment*. The agent's goal is to select the action that maximizes its total *return over time*, where the return is defined as a function of incremental *rewards* received after taking actions in the environment. 
 
-In this context, an environment can be anything. For a water-resources example, consider the control of a reservoir...
+In this context, an environment can be anything: a flat terrain with a constant gravitational field as in the bipedal locomotion example above, a Go board as in the case of DeepMind's [AlphaGo](https://en.wikipedia.org/wiki/AlphaGo), or a data center as in the case of DeepMind's real-world [RL-powered industrial cooling system](https://www.deepmind.com/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control). 
+
+For a clear water-resources example, consider the problem of stormwater management for flood control. [Saliba, et al., 2020](https://www.mdpi.com/2073-4441/12/11/3222) framed the problem of real-time control (RTC) of stormwater infrastructure (retrofitted) as a RL problem. Compared against passive systems (no controls), the RL implementations reduced flooding volume by 70.5% on average. 
 ## Why Reinforcement Learning?
-The reinforcement learning (RL) paradigm is unique in its focus on learning *optimal actions* to be taken by an agent operating a system *over time*. 
+It's reasonable to ask why RL should be used at all. Why not just program a stormwater system with predefined rules about how to operate? The reinforcement learning (RL) paradigm is unique in its focus on learning *optimal actions* to be taken by an agent operating a system *over time*. DeepMind's data-center cooling application offers a compelling example: "...the AI [learned] to take advantage of winter conditions and produce colder-than-normal water, which reduces the energy required for cooling within the data center. Rules don't get better over time, but AI does."
+
+*More to come.*
 
 ## References
 I've found the following references very helpful in gaining an understanding of reinforcement learning concepts.
