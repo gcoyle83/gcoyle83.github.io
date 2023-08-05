@@ -4,10 +4,9 @@ title: Reinforcement Learning
 permalink: /data_science/reinforcement
 ---
 <center>
-		<iframe src="/assets/images/bipedal.mp4"
-			 width="560"
-             height="315"
-			 alt="Bipedal motion with RL"></iframe>
+<video controls loop>
+  <source src="/assets/images/bipedal.mp4" type="video/mp4">
+</video>
 </center>
 
 ## Why Reinforcement Learning?
