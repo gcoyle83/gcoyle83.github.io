@@ -3,6 +3,15 @@ layout: page
 title: Reinforcement Learning
 permalink: /data_science/reinforcement
 ---
+<center>
+	<figure>
+		<img src="/assets/images/bipedal.mp4"
+			 width="500"
+			 alt="Bipedal motion with RL">
+		<figcaption>RL used to train robots to walk.</figcaption>
+	</figure>
+</center>
+
 ## Why Reinforcement Learning?
 The reinforcement learning (RL) paradigm is unique in its focus on learning *optimal actions* to be taken by an agent operating a system *over time*. 
 
