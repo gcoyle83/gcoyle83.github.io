@@ -4,8 +4,8 @@ title: Reinforcement Learning
 permalink: /data_science/reinforcement
 ---
 <center>
-<video controls loop>
-  <source src="/assets/images/bipedal.mp4" type="video/mp4">
+<video width="560" height="315" autoplay controls loop muted>
+  <source src="/assets/images/bipedal.mp4" type="video/mp4" alt="Robots trained to walk with RL">
 </video>
 </center>
 
