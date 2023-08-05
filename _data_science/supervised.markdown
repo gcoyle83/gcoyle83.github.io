@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Concepts
-permalink: /concepts/
+title: Supervised Learning
+permalink: /data_science/supervised
 ---
-## The Nexus
+## Why Supervised Learning?
 There are a lot of concepts that interest me, so perhaps the most effective way of summarizing my interests (primarily for myself, as I don't really expect anyone else to read this) is by first defining their common attributes or nexus. 
 
 Rapid list:
