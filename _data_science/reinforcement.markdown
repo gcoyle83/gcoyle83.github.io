@@ -4,12 +4,10 @@ title: Reinforcement Learning
 permalink: /data_science/reinforcement
 ---
 <center>
-	<figure>
-		<img src="/assets/images/bipedal.mp4"
-			 width="500"
-			 alt="Bipedal motion with RL">
-		<figcaption>RL used to train robots to walk.</figcaption>
-	</figure>
+		<iframe src="/assets/images/bipedal.mp4"
+			 width="560"
+             height="315"
+			 alt="Bipedal motion with RL"></iframe>
 </center>
 
 ## Why Reinforcement Learning?
