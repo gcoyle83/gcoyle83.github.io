@@ -5,7 +5,7 @@ permalink: /data_science/reinforcement
 ---
 The reinforcement learning hypothesis, as put forward by [Michael Littman](https://en.wikipedia.org/wiki/Michael_L._Littman), states that *"Intelligent behavior arises from the actions of an individual seeking to maximize its received reward signals in a complex and changing world."* 
 
-A fun-to-watch example of RL in robotics is shown below (see [Geijtenbeek, et al., 2013](https://www.goatstream.com/research/papers/SA2013/)), where synthetic (digital) bipedal creatures learn over many generations to walk. One thing notable about this example is that the synthetic creatures used are actually running advanced physics simulations of muscle-based locomotion - the knowledge gained from these simulations can then be transferred to real robots walking in the real world.
+At the risk of putting it too simply, reinforcement learning is an approach to machine learning that allows an agent to learn the best way to accomplish a task through trial and error. A fun-to-watch example of RL in robotics is shown below (see [Geijtenbeek, et al., 2013](https://www.goatstream.com/research/papers/SA2013/)), where synthetic (digital) bipedal creatures learn over many generations (episodes) to walk. One thing notable about this example is that the synthetic creatures used are actually running advanced physics simulations of muscle-based locomotion - the knowledge gained from these simulations can then be transferred to physical robots walking in the real world.
 
 <center>
 <video width="560" height="315" autoplay controls loop muted>
@@ -13,7 +13,7 @@ A fun-to-watch example of RL in robotics is shown below (see [Geijtenbeek, et al
 </video>
 </center>
 
-Robotics may be a fun example of RL, but the reinforcement learning task has been stated more generally (although not exclusively) as a Markov Decision Process (MDP). 
+Robotics applications provide many exciting examples of RL in action, but how does it work? The reinforcement learning task has been stated more generally (although not exclusively) as a Markov Decision Process, or MDP (Sutton and Barto, 2021). 
 
 <center>
 	<figure>
@@ -44,7 +44,13 @@ Reinforcement learning for RTC in stormwater management has been an active area 
 ## Why Reinforcement Learning?
 It's reasonable to ask why RL should be used at all. Why not just program a stormwater system with predefined rules about how to operate? The reinforcement learning (RL) paradigm is unique in its focus on learning *optimal actions* to be taken by an agent operating a system *over time*. DeepMind's data-center cooling application offers a compelling example: "...the AI [learned] to take advantage of winter conditions and produce colder-than-normal water, which reduces the energy required for cooling within the data center. Rules don't get better over time, but AI does."
 
-*More to come.*
+Richard Sutton, principal investigator in the RL and AI lab at the Alberta Machine Intelligence Institute, provides a(nother) compelling statement for consideration:
+
+*I am seeking to identify general computational principles underlying what we mean by intelligence and goal-directed behavior. I start with the interaction between the intelligent agent and its environment. Goals, choices, and sources of information are all defined in terms of this interaction. In some sense it is the only thing that is real, and from it all our sense of the world is created. How is this done? How can interaction lead to better behavior, better perception, better models of the world? What are the computational issues in doing this efficiently and in realtime? These are the sort of questions that I ask in trying to understand what it means to be intelligent, to predict and influence the world, to learn, perceive, act, and think ([source](http://incompleteideas.net/)).*
+
+In pursuit of the *goal* of answering the above questions, RL benefits from applying other ML approaches to help process signals of state and reward, and to learn to approximate value and policy functions. In this way, RL is a means of systematizing ML applications, i.e., of deploying ML solutions in a manner such that they *improve over time with experience* [Mitchell]().
+
+*More thoughts to come...*
 
 ## References
 I've found the following references very helpful in gaining an understanding of reinforcement learning concepts.
@@ -52,12 +58,14 @@ I've found the following references very helpful in gaining an understanding of 
 ### Primary
 Indispensable references: 
 
--  [Sutton and Barto](http://incompleteideas.net/book/the-book-2nd.html) maintain the authoritative text on the topic, and generously make a PDF version of their book freely available.
+-  [Sutton and Barto](http://incompleteideas.net/book/the-book.html) maintain the authoritative text on the topic, and generously make a PDF version of their book freely available.
 -  University of Alberta's [reinforcement learning specialization](https://www.coursera.org/specializations/reinforcement-learning) requires a Coursera subscription, but is well worth the cost for a professional data scientist, and is a great hands-on complement to the Sutton and Barto text. 
+-  [Bertsekas, 2019. Reinforcement Learning and Optimal Control.](http://web.mit.edu/dimitrib/www/RLbook.html) Author's description: The purpose of the book is to consider large and challenging multistage decision problems, which can be solved in principle by dynamic programming and optimal control, but their exact solution is computationally intractable. We discuss solution methods that rely on approximations to produce suboptimal policies with adequate performance. These methods are collectively referred to as reinforcement learning, and also by alternative names such as approximate dynamic programming, and neuro-dynamic programming.
 
 ### Secondary/Application Specific
 Compelling examples and research applications - many of these are discussed in context above, but are also listed here for completeness:
 
 -  [UVA Hydroinformatics](https://uvahydroinformatics.org/) lab and [GitHub repository](https://github.com/uva-hydroinformatics)
+-  Prof. Steve Brunton's [reinforcement learning lectures](https://www.youtube.com/playlist?list=PLMrJAkhIeNNQe1JXNvaFvURxGY4gE9k74)
 -  Google DeepMind's [autonomous data center cooling system](https://www.deepmind.com/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control) is a great example of applied RL for industrial control systems
 -  [Seo, et al, 2021](https://ieeexplore.ieee.org/abstract/document/9474446) provide a compelling use case of applied deep reinforcement learning (DRL) to optimize pump scheduling at a wastewater treatment plant in South Korea.
