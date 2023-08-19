@@ -13,7 +13,7 @@ At the risk of putting it too simply, reinforcement learning is an approach to m
 </video>
 </center>
 
-Robotics applications provide many exciting examples of RL in action, but how does it work? The reinforcement learning task has been stated more generally (although not exclusively) as a Markov Decision Process, or MDP (Sutton and Barto, 2021). 
+Robotics applications provide many exciting - and often amusing - examples of RL in action, but how does it work? The reinforcement learning task has been stated more generally (although not exclusively) as a Markov Decision Process, or MDP ([Sutton and Barto, 2021](http://incompleteideas.net/book/the-book.html)). 
 
 <center>
 	<figure>
