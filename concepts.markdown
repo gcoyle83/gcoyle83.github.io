@@ -15,9 +15,9 @@ This collection of pages introduces core data science concepts that interest me,
 -  [Causal ML](https://arxiv.org/abs/2206.15475) (external link) combines machine learning with the robust but relatively new field of *Causal inference*. My primary encounters with causal inference so far have been through Richard McElreath's *Statistical Rethinking* course, but I am intrigued by the possibilities of incorporating causal theory with automated machine learning systems.  
 
 ## Water Quality
-This collection of pages introduces core water quality concepts that interest me (pages may not yet exist).
+This collection of pages introduces core [water quality](./water_quality/why) concepts that interest me (pages may not yet exist).
 
--  [Hydroinformatics](../water_quality/hydroinformatics)
+-  [Hydroinformatics](../data_science/hydroinformatics)
 -  [Hydrology and hydraulic systems]()
 -  [Surface water quality]()
 -  [Groundwater quality]()
