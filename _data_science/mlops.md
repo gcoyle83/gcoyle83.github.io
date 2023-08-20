@@ -26,6 +26,36 @@ This leading quote from Google Research's 2015 paper [*Hidden Technical Debt in 
 
 > "Technical debt may be paid down by refactoring code, improving unit tests, deleting dead code, reducing dependencies, tightening APIs, and improving documentation - the goal is *not* to add new functionality, but to enable future improvements, reduce errors, and improve maintainability... we argue that **ML systems have a special capacity for incurring technical debt, because they have all of the maintenance problems of traditional code plus an additional set of ML-specific issues.**" 
 
+-  Complex models erode boundaries
+    -  entanglement
+    -  correction cascades
+    -  undeclared consumers
+-  Data dependencies cost more than code dependencies
+    -  unstable data dependencies
+    -  underutilized data dependencies (legacy features, bundled features, $\epsilon$-features, correlated features)
+    -  static analysis of data dependencies
+-  Feedback loops
+    -  direct
+    -  hidden
+-  ML-system anti-patterns
+    -  glue code
+    -  pipeline jungles
+    -  dead experimental codepaths
+    -  abstraction debt
+    -  common smells (plain-old-data, multiple-language, prototype)
+-  Configuration debt
+-  Changes in the external world
+    -  fixed thresholds in dynamic systems
+    -  monitoring and testing (prediction bias, action limits, upstream producers)
+-  Other areas of ML-related debt
+    -  data testing debt
+    -  reproducibility debt
+    -  process management debt
+    -  cultural debt
+-  Conclusions (from the paper)
+
+**Is it worth it?**
+
 The issue as stated is compelling: after all, are we building ML systems for the sake of ML systems? Well, certainly some are, but it isn't the dominant reason for building them (or shouldn't be). Certainly not in the domain of civil infrastructure. The question glaring from beneath this statement, then, is: *why are we continuing to build ML systems if they are more difficult and expensive to maintain than other reasonable solutions?*
 
 
