@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Water Quality and Hydroinformatics
+title: Hydroinformatics
 permalink: /water_quality/hydroinformatics
 ---
 ## Defining hydroinformatics
@@ -18,3 +18,6 @@ From the [IWAP Journal of Hydroinformatics](https://iwaponline.com/jh/pages/Aims
 
 ## Exemplary case studies in hydroinformatics
 Here I'll try to identify examples of the application of hydroinformatics that I believe are aspirational (if I'm using that word correctly)... 
+
+-  Find an article to discuss here
+-  And add another here
