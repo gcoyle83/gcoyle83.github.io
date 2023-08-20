@@ -45,7 +45,8 @@ Reinforcement learning for RTC in stormwater management has been an active area 
 ### Reinforcement learning for operational control of wastewater treatment systems
 Several studies of the application of RL to operational aspects of wastewater treatment systems have been undertaken in the past decade. A recent effort was made by Croll, et al., (2023a, 2023b) to conduct a systematic review of the application of RL in the wastewater domain, with an emphasis on identifying the challenges and research priorities necessary to realize the potential of using RL methodologies to improve operations and maintenance of wastewater infrastructure.
 
--  [Croll, et al., 2023a](https://www.tandfonline.com/doi/full/10.1080/10643389.2023.2183699?scroll=top&needAccess=true&role=tab)
+-  [Croll, et al., 2023a](https://www.tandfonline.com/doi/full/10.1080/10643389.2023.2183699?scroll=top&needAccess=true&role=tab) interestingly point to the more mature applications of RL in the domain of mobile (cellular) network optimization, and suggest that similarities with the wastewater treatment control task make this a good example for those interested in applying RL in wastewater management.
+
 -  [Croll, et al., 2023b](https://pubs.acs.org/doi/10.1021/acs.est.3c00353?ref=pdf) - Systematic Performance Evaluation of Reinforcement Learning Algorithms Applied to Wastewater Treatment Control Optimization
 
 ## Why Reinforcement Learning?

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hydroinformatics
-permalink: /water_quality/hydroinformatics
+permalink: /data_science/hydroinformatics
 ---
 ## Defining hydroinformatics
 My personal definition for this term is simply - *the application of data and decision sciences to the design, operation and manageemnt of water infrastructure or to the general advancement of water sciences (hydrology, limnology, aquatic ecology, et cetera)*.
