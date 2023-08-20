@@ -28,7 +28,8 @@ In a MDP, an *agent* selects among a possible set of *actions* conditional on an
 
 In this context, an environment can be anything: a flat terrain with a constant gravitational field as in the bipedal locomotion example above, a Go board as in the case of DeepMind's [AlphaGo](https://en.wikipedia.org/wiki/AlphaGo), or a data center as in the case of DeepMind's real-world [RL-powered industrial cooling system](https://www.deepmind.com/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control). 
 
-A number of interesting water-resources examples have appeared in recent literature, and I'll do my best to summarize their contributions here:
+## Applications and case studies of RL in the water sector
+A number of interesting examples of RL applicatoins in the water sector have appeared in recent literature, ranging from reservoir operations to active stormwater and wastewater operational control strategies. I'll do my best to summarize these contributions here. 
 
 ### Reinforcement learning for real-time control of stormwater management systems
 Reinforcement learning for RTC in stormwater management has been an active area of research lately, most notably at Prof. Jonathan Goodall's [Hydroinformatics Research Group](https://uvahydroinformatics.org/) in the Link Lab at the University of Virginia. Also worth noting is the occasional collaboration between Goodall's team and Xylem. 
@@ -40,6 +41,12 @@ Reinforcement learning for RTC in stormwater management has been an active area 
 -  [Bowes, et al., 2020](https://iwaponline.com/jh/article/23/3/529/77759/Flood-mitigation-in-coastal-urban-catchments-using) continued this line of inquiry on hypothetical urban catchments, but extended the baseline comparison to include industry-standard rule-based control (RBC), as well as model predictive control with genetic algorithm optimization (MPC-GA). RL was shown to quickly outperform RBC, while performing comparably with MPC-GA but at significantly less computational expense. 
 
 -  [Bowes, et al., 2022](https://par.nsf.gov/servlets/purl/10340922) - This work used SWMM5 simulations of real catchments in Norfolk, VA, with tidal influence and multiobjective optimization to mitigate flooding and maximize sediment capture.
+
+### Reinforcement learning for operational control of wastewater treatment systems
+Several studies of the application of RL to operational aspects of wastewater treatment systems have been undertaken in the past decade. A recent effort was made by Croll, et al., (2023a, 2023b) to conduct a systematic review of the application of RL in the wastewater domain, with an emphasis on identifying the challenges and research priorities necessary to realize the potential of using RL methodologies to improve operations and maintenance of wastewater infrastructure.
+
+-  [Croll, et al., 2023a](https://www.tandfonline.com/doi/full/10.1080/10643389.2023.2183699?scroll=top&needAccess=true&role=tab)
+-  [Croll, et al., 2023b](https://pubs.acs.org/doi/10.1021/acs.est.3c00353?ref=pdf) - Systematic Performance Evaluation of Reinforcement Learning Algorithms Applied to Wastewater Treatment Control Optimization
 
 ## Why Reinforcement Learning?
 It's reasonable to ask why RL should be used at all. Why not just program a stormwater system with predefined rules about how to operate? The reinforcement learning (RL) paradigm is unique in its focus on learning *optimal actions* to be taken by an agent operating a system *over time*. DeepMind's data-center cooling application offers a compelling example: "...the AI [learned] to take advantage of winter conditions and produce colder-than-normal water, which reduces the energy required for cooling within the data center. Rules don't get better over time, but AI does."
