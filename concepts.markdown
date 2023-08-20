@@ -25,6 +25,7 @@ This collection of pages introduces core [water quality](../water_quality/why) c
 -  [Wastewater treatment systems]()
 -  [Limnology]()
 -  [Aquaculture]()
+
 ## The Nexus
 There are a lot of concepts that interest me, so perhaps the most effective way of summarizing my interests (primarily for myself, as I don't really expect anyone else to read this) is by first defining their common attributes or nexus. 
 
@@ -44,18 +45,10 @@ Rapid list:
 -  Bayesian statistics
 -  reinforcement learning
 
-## [ML Engineering/MLOps]
+## ML Engineering/MLOps
 In this section I'll collect the best resources I find in my efforts to understand the objectives and requirements of MLOps, and begin to outline my own take on the subject as it intersects with the more traditional model development and management lifecycle of water-quality and environmental infrastructure modeling. 
-[*Go to section*](../concepts/mlops)
 
-Topics to be considered:
--  [MLOps maturity model(s)]()
--  [Standards development]()
--  [Data drift]()
--  [Concept drift]()
--  [Model tracking systems]()
--  [Containerization]()
--  [Distributed computing]()
+[*Go to section*](../concepts/mlops)
 
 ### Towards Intelligent Environmental Infrastructure
 This should just be a blog topic?
