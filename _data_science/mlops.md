@@ -16,7 +16,8 @@ Topics to be considered:
 -  [Model tracking systems]()
 -  [Containerization]()
 -  [Distributed computing]()
--  Connection with [SimOps](https://arxiv.org/pdf/2111.06223.pdf) 
+-  Connection with [SimOps](https://arxiv.org/pdf/2111.06223.pdf)
+ 
 # References and Resources
 Are compiled for this section here.
 
