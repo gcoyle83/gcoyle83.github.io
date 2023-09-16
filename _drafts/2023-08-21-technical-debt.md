@@ -32,7 +32,7 @@ This leading quote conveys the central concept well. Technical debt (Cunningham,
 
 -  [HERE!] Data dependencies cost more than code dependencies
     -  unstable data dependencies
-    -  underutilized data dependencies (legacy features, bundled features, $\epsilon$-features, correlated features)
+    -  underutilized data dependencies (legacy features, bundled features, $\eps$-features, correlated features)
     -  static analysis of data dependencies
 -  Feedback loops
     -  direct
